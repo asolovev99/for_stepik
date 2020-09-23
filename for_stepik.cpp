@@ -3,8 +3,14 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <iostream>
 
+
+
+
+
 int main()
-{                   // LESS1:A7df892WDDFNeogoodjob
+{   
+
+    // LESS1:A7df892WDDFNeogoodjob
     /*float pi;
     //float f = 3.1415926;
     int N = 512;
@@ -34,7 +40,7 @@ int main()
     /*double left_lenght_of_triangle = 0, right_lenght_of_triangle = 0, angle_of_triangle = 0;
     scanf("%lf %lf %lf", &left_lenght_of_triangle, &right_lenght_of_triangle, &angle_of_triangle);
     printf("%.2lf", left_lenght_of_triangle * right_lenght_of_triangle * 0.5 * sin((angle_of_triangle * 3.1415926) / 180)); */
-    int number_of_bits = 0, number_of_numbers = 0;
+    /*int number_of_bits = 0, number_of_numbers = 0;
     scanf("%d", &number_of_bits);
     for (int i = 1; i <= number_of_bits; i++)
     {
@@ -44,7 +50,11 @@ int main()
         }
         number_of_numbers *= 2;
     }
-    printf("%d", number_of_numbers);
+    printf("%d", number_of_numbers);*/
+    int seconds = 0;
+    scanf("%d", &seconds);
+    printf("%d %d", seconds / 3600, seconds / 60 % 60);
+
 
     return 0;
 }
