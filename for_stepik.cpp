@@ -50,11 +50,80 @@ int main()
         }
         number_of_numbers *= 2;
     }
-    printf("%d", number_of_numbers);*/
+    printf("%d", number_of_numbers);*//*
     int seconds = 0;
     scanf("%d", &seconds);
-    printf("%d %d", seconds / 3600, seconds / 60 % 60);
+    printf("%d %d", seconds / 3600, seconds / 60 % 60);*/
 
+    /*long int r_in = 0, r_out = 0;
+    scanf("%d %d", &r_in, &r_out);
+    printf("%d %.2lf", r_out - r_in, 100 * 3.14159265358979323846 * ((double)r_out - r_in) * ((double)r_out + r_in));*/
+
+    //int number_of_glasses = 0;
+    //scanf("%d", &number_of_glasses);
+    //printf("%d %.3e", (int)(249.5 / 0.05) * number_of_glasses, 249.5 / 3 * 10e+22 * number_of_glasses);
+    
+    //int first_number = 0, second_number = 0;
+    //scanf("%d %d", &first_number, &second_number);
+    //printf("%d %d", (first_number / second_number) % 10, (int)(((double)first_number / second_number) * 10) % 10);
+
+    /*int number = 0;
+    scanf("%d", &number);
+    for(int i = 1; i <= 3; i++)
+    {
+        if(i != 1)
+        {
+            printf("%d", number % 10);
+            number = number / 10;
+        }
+        else
+        {
+            if (number % 10 != 0)
+            {
+                printf("%d", number % 10);
+            }
+            number = number / 10;
+        }
+    }*/
+    //int number = 0, product_of_even_digits = 1, product_of_odd_digits = 1;
+    //scanf("%d", &number);
+    //for (int i = 1; i <= 2;i++)
+    //{
+    //    product_of_odd_digits *= number % 10;
+    //    number = number / 10;
+    //    product_of_even_digits *= number % 10;
+    //    number = number / 10;
+    //}
+    //printf("%.2lf", (double)product_of_even_digits / product_of_odd_digits);
+
+    //long long int size = 0, real_GB = 1, commercial_GB = 1;
+    //scanf("%lld", &size);
+    //for (int i = 1; i <= 30; i++)
+    //{
+    //    real_GB *= 2;
+    //}
+    //for (int i = 1; i <= 9; i++)
+    //{
+    //    commercial_GB *= 10;
+    //}
+    //printf("%lld", size * (real_GB - commercial_GB));
+
+    //int bit = 0;
+    //scanf("%d", &bit);
+    //printf("%d", !bit);
+    //long long int factorial = 1;
+    //for (int i = 1; i <= 10; i++)
+    //{
+    //    factorial *= i;
+    //    printf("%d!", i);
+    //    if (i != 10)
+    //    {
+    //        printf(" ");
+    //    }
+    //    printf("=%8lld\n", factorial);
+    //}
+
+    
 
     return 0;
 }
