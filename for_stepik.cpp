@@ -3,7 +3,15 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <iostream>
 
-
+long long int factorial(int number)
+{
+    long long int factorial_number = 1;
+    for (int i = 2; i <= number; i++)
+    {
+        factorial_number *= i;
+    }
+    return factorial_number;
+}
 
 
 
@@ -122,9 +130,16 @@ int main()
     //    }
     //    printf("=%8lld\n", factorial);
     //}
-
-    
-
+    //double number_e = 1;
+    //for (int i = 1; i <= 3; i++)
+    //{
+    //    number_e += 1 / (double)factorial(i);
+    //}
+    //printf("%.5lf\n", number_e);
+    //number_e += 1 / (double)factorial(4);
+    //printf("%.5lf\n", number_e);
+    //number_e += 1 / (double)factorial(5);
+    //printf("%.5lf", number_e);
     return 0;
 }
 
